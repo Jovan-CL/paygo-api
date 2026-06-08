@@ -1,0 +1,15 @@
+# Compiled binaries and executables
+/bin/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+paygo-api
+
+# Local Environment / Database files
+.env
+*.log
+/scoop/
+apps/
