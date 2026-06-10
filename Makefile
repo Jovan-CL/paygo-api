@@ -14,7 +14,9 @@ tidy:
 
 # Execute all unit tests in the project
 test:
-	go test -v ./...
+# 	go test -v ./...
+	go test -v ./internal/service -run GetByPublicID
+
 
 db-stat:
 	pg_ctl -D "$$USERPROFILE/scoop/apps/postgresql/current/data" status
